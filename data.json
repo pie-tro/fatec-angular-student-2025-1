@@ -2,19 +2,19 @@
   "students": [
     {
       "id": 1,
-      "name": "José Maria",
-      "course": "Computação"
+      "name": "Artur Henrique",
+      "course": "Computaria"
     },
     {
       "id": 2,
-      "name": "Fernanda Silva",
-      "course": "Computação"
+      "name": "Ana Carolina",
+      "course": "Enche o Saco"
     },
     {
       "id": 3,
-      "name": "Mario Antunes",
-      "course": "Matemática"
+      "name": "Heber Meireles",
+      "course": "Brawl Stars"
     }
   ]
- 
+
 }
