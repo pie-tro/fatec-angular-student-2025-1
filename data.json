@@ -15,5 +15,22 @@
       "name": "Heber Meireles",
       "course": "Brawl Stars"
     }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "name": "Matemática Básica",
+      "price": 199.99
+    },
+    {
+      "id": 2,
+      "name": "Lógica de Programação",
+      "price": 249.90
+    },
+    {
+      "id": 3,
+      "name": "Desenvolvimento Web",
+      "price": 299.99
+    }
   ]
 }
