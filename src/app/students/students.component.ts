@@ -1,9 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { StudentService } from '../student.service';
 import { Student } from '../student';
-import {
-  FormBuilder, FormGroup,
-} from '@angular/forms';
+import {FormBuilder, FormGroup} from '@angular/forms';
 
 @Component({
   selector: 'app-students',
@@ -30,6 +28,11 @@ export class StudentsComponent implements OnInit{
   }
 
   save() {
-    console.log(this.formGroupStudent.value);
+    this.service.saveStudent(this.formGroupStudent.value).subscribe({
+      next: json => {
+        this.students.push(json);
+        this.formGroupStudent.reset();
+      }
+    })
   }
 }
