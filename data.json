@@ -25,12 +25,17 @@
     {
       "id": 2,
       "name": "Lógica de Programação",
-      "price": 249.90
+      "price": 249.9
     },
     {
       "id": 3,
       "name": "Desenvolvimento Web",
       "price": 299.99
+    },
+    {
+      "id": 4,
+      "name": "aaaa",
+      "price": 22222
     }
   ]
 }

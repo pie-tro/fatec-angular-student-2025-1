@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-7 m-auto">
       <h1 class="text-center">Cadastro de Cursos</h1>
-      <form>
+      <form [formGroup]="formGroupCourse">
         <div class="mb-3">
           <label for="inputCourse" class="form-label">Nome do Curso</label>
           <input formControlName="name" type="text" class="form-control" id="inputName" aria-describedby="nameHelp">
@@ -19,7 +19,7 @@
           <label class="form-check-label" for="checkDefault">
           </label>
         </div>
-        <button type="submit" class="btn btn-primary">Salvar</button>
+        <button type="submit" class="btn btn-primary" (click)="save()">Salvar</button>
       </form>
       <h2 class="text-center">Cursos Cadastrados</h2>
       <table class="table table-striped">
